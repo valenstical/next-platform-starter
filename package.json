@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start",
+        "start": "next start -H ::",
         "lint": "next lint"
     },
     "dependencies": {
@@ -16,9 +16,12 @@
         "next": "15.0.3",
         "react": "18.3.1",
         "react-dom": "18.3.1",
+        "request-ip": "^3.3.0",
         "unique-names-generator": "^4.7.1"
     },
     "devDependencies": {
+        "@types/node": "22.9.1",
+        "@types/react": "18.3.12",
         "autoprefixer": "^10.4.18",
         "daisyui": "^4.12.8",
         "eslint": "8.57.1",
